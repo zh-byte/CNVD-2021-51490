@@ -1,5 +1,10 @@
 ## CNVD-2021-51490 poc
 
+**依赖库**
+```
+pip install argparse requests rich
+```
+
 **使用**
 ```
 python CNVD-2021-51490.py -h
