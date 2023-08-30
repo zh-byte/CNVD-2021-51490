@@ -66,7 +66,7 @@ if __name__ == '__main__':
                         help="结果的保存位置 ,default=result.txt example: result.txt")
     args = parser.parse_args()
 
-    url_list = Read_File("ip.txt")
+    url_list = Read_File(args.file)
 
     pool = Pool(20)  # 20自己指定的线程数
 
